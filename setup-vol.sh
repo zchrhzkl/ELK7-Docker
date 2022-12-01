@@ -3,7 +3,7 @@
 ## CREATE DOCKER VOLUME FOLDERS
 #mkdir -p vol/db0{1..3}
 mkdir -p vol/certs
-mkdir -p vol/es{01}/{data,logs}
+mkdir -p vol/es01/{data,logs}
 mkdir -p vol/kibana/data/
 
 ## SETUP PERMISSION AND OWNERSHIP
